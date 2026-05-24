@@ -1,0 +1,34 @@
+assets
+js/src/gen_js_from_hbb.ts
+js/src/message.ts
+js/src/rendezvous.ts
+ogvjs*
+libopus.js
+libopus.wasm
+yuv-canvas*
+node_modules
+# Archivos compilados de Rust
+/target/
+*.rs.bk
+*.a
+*.o
+*.so
+*.dll
+*.exe
+
+# Archivos de Flutter
+/flutter/dart_tool/
+/flutter/build/
+/flutter/.dart_tool/
+/flutter/.flutter-plugins
+/flutter/.flutter-plugins-dependencies
+/flutter/pubspec.lock
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.iml
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
